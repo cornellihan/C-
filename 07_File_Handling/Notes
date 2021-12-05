@@ -1,0 +1,33 @@
+1. Stram-
+Stream is a resource of a device where input/output operations are performed. You can represent a stream as either a destination or asource of characters of indefinite length.
+
+
+2. Fstream-
+Fstream library is another library like iostream library. It provides various classes that help us to interact with files and manipulate them using C++. Following are the three main fstream classes that used most to work with files.
+    a. ofstream- It represents an output stream. It's used to creating files and writing informations to these files.
+    b. ifstream- It represents an input stream. It's used for reading informations from data files.
+    c. fstream- It represents a file stream. it comes with ofstream/ifstream capabilities. That means it's capable of creating files, writing to files, reading from data files.
+
+
+
+Working with files generally follows the following orders-
+
+=> Opening a file
+Firstly, we need to create an object of any of the file stream classes we want. Then C++ provides open() method to open a file. And following is the syntax to open a file-
+    fstream myFile;
+    myfile.open("file_name", mode);
+Following are the file modes provided by C++-
+    ios::in - It opens the file in the reading mode
+    ios::out - It opens the file in the writing mode
+    ios::app - It opens the file in the append mode. Meaning, the contents that are written to the file are added at the end of the previous content
+    ios::ate - It opens the file for the output then read and write control to file's end
+    ios::trunc - If a file exist, the file elements should be truncated prior to it's opening.
+
+
+=> Reading/Writing a file
+
+
+=> Closing the file
+    Whenever we open a file and read/write the content, all the data is flushed into the buffer memory.
+    Thus, once we are done working with the file, we need to release the memory to the system. Following is the syntax to close the file-
+        myFile.close();

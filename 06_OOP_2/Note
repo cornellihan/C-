@@ -1,0 +1,6 @@
+1. Access Modifiers concept
+    Public Specifiers can be accessable from anywhere of the programm.
+    Protected Specifiers can be accessable inside that class only.
+    Protected Specifiers can be accessable inside that class or any derived class but not in Objects.
+
+2. Virtual Function is declared when we expect that the function will be redefined inside derived classes.

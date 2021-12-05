@@ -1,0 +1,18 @@
+1. Variable:
+    int a;      =>    This is called Decalration of a variable.
+    a = 2;      =>    This is called Initializing the variable.
+    int a = 2;  =>    This is called Defination of a variable.
+    Define a variable = Decalre + Initialize
+
+2. There are many types of data in the world that we can explain to anyone. But computer is not as smart as we human. So to play with data in the world of programming, there are 4/6 categories of data where almost every type of data can exist. The categories are called Data Types. By following the Data Type, we store the value to the variable.
+    (a) Numeric Data Type:
+        1. Integer (int)
+        2. Floating Point (float)
+        3. Double (double)
+    (b) Character Data Type:
+        1. Character (char)
+        2. String (str)
+    (c) Boolean Data Type:
+        This can store either true or false value by 0 and 1
+    (d) Void Data Type
+        This is sometimes called empty Data Type Variable.
